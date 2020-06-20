@@ -4,7 +4,7 @@
     "description": "tslint for my projects",
     "main": "index.js",
     "scripts": {
-        "test": "npm publish"
+        "publish": "npm publish"
     },
     "repository": {
         "type": "git",
