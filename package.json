@@ -1,6 +1,6 @@
 {
     "name": "@kidwen/tslint",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "tslint for my projects",
     "main": "index.js",
     "repository": {

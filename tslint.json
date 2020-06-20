@@ -1,7 +1,6 @@
 {
     "extends": [
-        "codelyzer",
-        "tslint-sonarts"
+        "codelyzer"
     ],
     "rules": {
         // Codelyzer core rules
