@@ -1,0 +1,25 @@
+{
+    "name": "tslint",
+    "version": "1.0.0",
+    "description": "tslint for my projects",
+    "main": "index.js",
+    "scripts": {
+        "test": "npm publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kidwen/tslint.git"
+    },
+    "keywords": [
+        "tslint"
+    ],
+    "author": "kidwen",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kidwen/tslint/issues"
+    },
+    "homepage": "https://github.com/kidwen/tslint#readme",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
+}
