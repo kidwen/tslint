@@ -6,4 +6,4 @@ tslint for my projects
 $ npm publish
 ```
 
-- publish to `https://npm.pkg.github.com/ `
+- publish to `https://npm.pkg.github.com `
