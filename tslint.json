@@ -245,7 +245,9 @@
             "allow-number",
             "allow-boolean-or-undefined"
         ],
-        "strict-type-predicates": true,
+        "compilerOptions": {
+            "strict": true
+        },
         "switch-default": true,
         "triple-equals": false,
         "unnecessary-constructor": true,
