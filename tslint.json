@@ -86,10 +86,10 @@
         "no-nested-template-literals": false,
         "use-type-alias": false,
         "bool-param-default": false,
-        "parameters-max-number": [
-            true,
-            5
-        ],
+        // "parameters-max-number": [
+        //     true,
+        //     5
+        // ],
         "no-duplicate-string": [
             "error",
             5
@@ -245,9 +245,6 @@
             "allow-number",
             "allow-boolean-or-undefined"
         ],
-        "compilerOptions": {
-            "strict": true
-        },
         "switch-default": true,
         "triple-equals": false,
         "unnecessary-constructor": true,
