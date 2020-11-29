@@ -1,5 +1,5 @@
 # tslint
-tslint for my projects
+tslint for your projects
 
 ## publish
 ```bash
