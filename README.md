@@ -1,3 +1,5 @@
+[![NPM @latest](https://img.shields.io/npm/v/@kidwen/tslint/latest)](https://www.npmjs.com/package/@kidwen/tslint)
+
 # tslint
 tslint for your projects
 
