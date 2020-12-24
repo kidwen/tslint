@@ -1,4 +1,4 @@
-[![NPM @latest](https://img.shields.io/npm/v/@kidwen/tslint/latest)](https://www.npmjs.com/package/@kidwen/tslint)
+[![NPM @latest](https://img.shields.io/npm/v/@kidwen/tslint/latest?color=%2300AA00)](https://www.npmjs.com/package/@kidwen/tslint)
 
 # tslint
 tslint for your projects
