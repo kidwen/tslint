@@ -14,5 +14,8 @@
     "bugs": {
         "url": "https://github.com/kidwen/tslint/issues"
     },
-    "homepage": "https://github.com/kidwen/tslint#readme"
+    "homepage": "https://github.com/kidwen/tslint#readme",
+    "devDependencies": {
+        "tslint-eslint-rules": "^5.4.0"
+    }
 }

@@ -3,8 +3,6 @@
         "codelyzer"
     ],
     "rules": {
-        // Codelyzer core rules
-        // Codelyzer.Functionality
         "template-banana-in-box": true,
         "contextual-lifecycle": true,
         "contextual-decorator": true,
@@ -51,7 +49,6 @@
         "template-no-autofocus": true,
         "template-no-distracting-elements": true,
         "template-no-any": true,
-        // Codelyzer.Style
         "component-class-suffix": [
             true,
             "Component"
@@ -80,22 +77,15 @@
         "no-host-metadata-property": true,
         "no-inputs-metadata-property": true,
         "no-outputs-metadata-property": true,
-        // SonarTS
         "no-commented-code": false,
         "cognitive-complexity": false,
         "no-nested-template-literals": false,
         "use-type-alias": false,
         "bool-param-default": false,
-        // "parameters-max-number": [
-        //     true,
-        //     5
-        // ],
         "no-duplicate-string": [
             "error",
             5
         ],
-        // TSLint core rules
-        // TSLint.TypeScript-specific
         "adjacent-overload-signatures": true,
         "ban-ts-ignore": true,
         "ban-types": [
@@ -168,7 +158,6 @@
             }
         ],
         "unified-signatures": true,
-        // TSLint.Functionality
         "await-promise": true,
         "ban-comma-operator": true,
         "ban": [
@@ -250,7 +239,6 @@
         "unnecessary-constructor": true,
         "use-default-type-parameter": true,
         "use-isnan": true,
-        // TSLint.Maintainability
         "cyclomatic-complexity": [
             true,
             45
@@ -297,7 +285,6 @@
                 "singleline": "never"
             }
         ],
-        // TSLint.Style
         "align": [
             true,
             "members",
