@@ -16,6 +16,7 @@
     },
     "homepage": "https://github.com/kidwen/tslint#readme",
     "devDependencies": {
+        "codelyzer": "^6.0.1",
         "tslint-eslint-rules": "^5.4.0"
     }
 }
