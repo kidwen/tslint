@@ -1,6 +1,7 @@
 {
     "extends": [
-        "codelyzer"
+        "codelyzer",
+        "tslint-eslint-rules"
     ],
     "rules": {
         "template-banana-in-box": true,
@@ -442,6 +443,17 @@
             "check-typecast",
             "check-type-operator",
             "check-preblock"
-        ]
+        ],
+        "no-constant-condition": true,
+        "no-control-regex": true,
+        "no-duplicate-case": true,
+        "no-empty-character-class": true,
+        "no-ex-assign": true,
+        "no-extra-boolean-cast": true,
+        "no-extra-semi": true,
+        "no-inner-declarations": true,
+        "no-invalid-regexp": true,
+        "no-regex-spaces": true,
+        "no-unexpected-multiline": true
     }
 }
