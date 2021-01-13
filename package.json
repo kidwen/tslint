@@ -1,6 +1,6 @@
 {
     "name": "@kidwen/tslint",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "tslint for your projects",
     "repository": {
         "type": "git",
@@ -18,5 +18,8 @@
     "devDependencies": {
         "codelyzer": "^6.0.1",
         "tslint-eslint-rules": "^5.4.0"
+    },
+    "scripts": {
+        "publish": "npm publish"
     }
 }
