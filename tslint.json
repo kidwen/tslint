@@ -455,8 +455,6 @@
         "no-invalid-regexp": true,
         "no-regex-spaces": true,
         "no-unexpected-multiline": true,
-        "valid-typeof": true,
-        "no-proto": true,
-        "no-self-compare": true
+        "valid-typeof": true
     }
 }
