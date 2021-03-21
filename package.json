@@ -1,6 +1,6 @@
 {
     "name": "@kidwen/tslint",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "tslint for your projects",
     "repository": {
         "type": "git",
@@ -15,11 +15,12 @@
         "url": "https://github.com/kidwen/tslint/issues"
     },
     "homepage": "https://github.com/kidwen/tslint#readme",
-    "devDependencies": {
-        "codelyzer": "^6.0.1",
-        "tslint-eslint-rules": "^5.4.0"
-    },
     "scripts": {
         "publish": "npm publish"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.18.0",
+        "@typescript-eslint/parser": "^4.18.0",
+        "typescript": "^4.2.3"
     }
 }
