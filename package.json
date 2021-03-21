@@ -1,6 +1,6 @@
 {
     "name": "@kidwen/tslint",
-    "version": "0.0.8",
+    "version": "1.0.0",
     "description": "tslint for your projects",
     "repository": {
         "type": "git",
