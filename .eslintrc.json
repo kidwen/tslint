@@ -5,8 +5,12 @@
     ],
     "overrides": [
         {
-            "files": ["*.ts"],
-            "plugins": ["ban"],
+            "files": [
+                "*.ts"
+            ],
+            "plugins": [
+                "ban"
+            ],
             "parserOptions": {
                 "project": [
                     "tsconfig.json",
@@ -32,10 +36,11 @@
                         "accessibility": "explicit"
                     }
                 ],
-                "@typescript-eslint/no-inferrable-types": "error",
+                "@typescript-eslint/no-inferrable-types": "off",
                 "@typescript-eslint/member-ordering": "error",
                 "@typescript-eslint/no-unused-vars": "error",
                 "@typescript-eslint/no-non-null-assertion": "off",
+                "@typescript-eslint/no-require-imports": "error",
                 "@typescript-eslint/quotes": [
                     "error",
                     "single",
@@ -58,11 +63,25 @@
                 ],
                 "ban/ban": [
                     "error",
-                    {"name": "fit"},
-                    {"name": "fdescribe"},
-                    {"name": "xit"},
-                    {"name": "xdescribe"},
-                    {"name": ["Object", "assign"], "message": "Use the spread operator instead."}
+                    {
+                        "name": "fit"
+                    },
+                    {
+                        "name": "fdescribe"
+                    },
+                    {
+                        "name": "xit"
+                    },
+                    {
+                        "name": "xdescribe"
+                    },
+                    {
+                        "name": [
+                            "Object",
+                            "assign"
+                        ],
+                        "message": "Use the spread operator instead."
+                    }
                 ],
                 "no-duplicate-imports": "error",
                 "no-redeclare": "error",
@@ -70,7 +89,9 @@
                 "no-underscore-dangle": "off",
                 "prefer-arrow/prefer-arrow-functions": "off",
                 "jsdoc/newline-after-description": "off",
-                "quote-props": "off"
+                "quote-props": "off",
+                "max-len": "off",
+                "eqeqeq": "warn"
             }
         },
         {
@@ -81,7 +102,7 @@
                 "plugin:@angular-eslint/template/recommended"
             ],
             "rules": {
-                "@angular-eslint/template/accessibility-alt-text": "error",
+                "@angular-eslint/template/accessibility-alt-text": "off",
                 "@angular-eslint/template/accessibility-elements-content": "error",
                 "@angular-eslint/template/accessibility-label-for": "error",
                 "@angular-eslint/template/accessibility-table-scope": "error",

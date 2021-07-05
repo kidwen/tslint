@@ -1,15 +1,38 @@
 [![NPM @latest](https://img.shields.io/npm/v/@kidwen/tslint/latest?color=%2300AA00)](https://www.npmjs.com/package/@kidwen/tslint)
 
-# tslint
-tslint for your projects
+# usage
+
+### eslint(recommend👍)
+
+    ```json
+    // add .eslintrc.json
+    {
+        "extends": "./node_modules/@kidwen/tslint/.eslintrc.json"
+    }
+    ```
+
+### tslint(deprecated👎)
+
+    ```json
+    // add tslint.json
+    {
+        "extends": "@kidwen/tslint/tslint.json",
+        "rules": {
+            "component-selector": [true, "element", "app", "kebab-case"],
+            "deprecation": false
+        },
+        "rulesDirectory": ["codelyzer"]
+    }
+    ```
 
 ## publish
+
 ```bash
 $ npm publish
 ```
 
-- publish to `https://registry.npmjs.org/`
-- 不再发布到[github](https://npm.pkg.github.com)仓库
+-   publish to `https://registry.npmjs.org/`
+-   no longer publish to [github](https://npm.pkg.github.com) repository
 
 ## install this package in your project
 

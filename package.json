@@ -1,6 +1,6 @@
 {
     "name": "@kidwen/tslint",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "tslint for your projects",
     "repository": {
         "type": "git",
@@ -16,8 +16,15 @@
     },
     "homepage": "https://github.com/kidwen/tslint#readme",
     "devDependencies": {
+        "@angular-eslint/builder": "^12.2.0",
+        "@angular-eslint/eslint-plugin": "^12.2.0",
+        "@angular-eslint/eslint-plugin-template": "^12.2.0",
+        "@angular-eslint/schematics": "^12.2.0",
+        "@angular-eslint/template-parser": "^12.2.0",
         "@typescript-eslint/eslint-plugin": "^4.18.0",
         "@typescript-eslint/parser": "^4.18.0",
+        "eslint": "^7.30.0",
+        "eslint-plugin-ban": "^1.5.2",
         "typescript": "^4.2.3"
     }
 }
