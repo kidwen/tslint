@@ -4,16 +4,13 @@
 
 ### eslint(recommend👍)
 
-    ```json
     // add .eslintrc.json
     {
         "extends": "./node_modules/@kidwen/tslint/.eslintrc.json"
     }
-    ```
 
 ### tslint(deprecated👎)
 
-    ```json
     // add tslint.json
     {
         "extends": "@kidwen/tslint/tslint.json",
@@ -23,7 +20,6 @@
         },
         "rulesDirectory": ["codelyzer"]
     }
-    ```
 
 ## publish
 
