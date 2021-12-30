@@ -2,14 +2,14 @@
 
 # usage
 
-### eslint(recommend👍)
+### eslint(recommend)
 
     // add .eslintrc.json
     {
-        "extends": "./node_modules/@kidwen/tslint/.eslintrc.json"
+        "extends": "@kidwen/tslint"
     }
 
-### tslint(deprecated👎)
+### tslint(deprecated)
 
     // add tslint.json
     {
