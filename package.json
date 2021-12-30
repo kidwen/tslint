@@ -1,7 +1,7 @@
 {
     "name": "@kidwen/tslint",
-    "version": "1.0.7",
-    "description": "tslint for your projects",
+    "version": "1.0.8",
+    "description": "tslint for your angular projects",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/kidwen/tslint.git"
