@@ -1,3 +1,5 @@
+# DEPRECATED
+
 [![NPM @latest](https://img.shields.io/npm/v/@kidwen/tslint/latest?color=%2300AA00)](https://www.npmjs.com/package/@kidwen/tslint)
 
 # usage
